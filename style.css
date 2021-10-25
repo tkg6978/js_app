@@ -1,0 +1,21 @@
+/* body全体の設定 */
+body {
+    background-color: gainsboro;
+}
+
+/* コンテナの設定 */
+.container {
+    background-color: white;
+    text-align: center;
+}
+
+/* カウントアップ文字列の設定 */
+#coutUp {
+    font-size: 2rem;
+}
+
+/* プログレスバーの設定 */
+#coutUpProgress {
+    height: 2rem;
+    width: 95%;
+}

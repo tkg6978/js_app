@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>js_app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>js_app</h1>
+        <p id="coutUp">PUSH START BUTTON !</p>
+
+        <!-- HTML標準のプログレスバーを使用 -->
+        <progress id="coutUpProgress" value="0" max="100">0%</progress>
+
+        <!-- このボタンがクリックされたらjavascriptの関数が呼び出される -->
+        <input id="coutUpButton" type="button" value="START" onclick="coutUp()">
+    </div>
+
+    <!-- jsファイルの読み込み -->
+    <script type='text/javascript' src='./tobata.js'></script>
+</body>
+</html>
