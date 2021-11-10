@@ -8,13 +8,36 @@
 <body>
     <div class="container">
         <h1>js_app</h1>
+
         <p id="coutUp">PUSH START BUTTON !</p>
 
         <!-- HTML標準のプログレスバーを使用 -->
         <progress id="coutUpProgress" value="0" max="100">0%</progress>
 
         <!-- このボタンがクリックされたらjavascriptの関数が呼び出される -->
-        <input id="coutUpButton" type="button" value="START" onclick="coutUp()">
+        <dev class="wrap-button">
+            <input id="coutUpButton" type="button" value="START" onclick="coutUp()">
+        </div>
+    </div>
+
+    <!-- EventListener Demo -->
+    <div class="container">
+        <p class="title" id="title-demo">Try push demo button !</p>
+        <progress class="progress-demo" id="progress-status" value="0" max="100"></progress>
+        <dev class="wrap-button">
+            <input id="button-demo" type="button" value="demo">
+        </div>
+    </div>
+
+    <!-- Loading Demo -->
+    <div class="container">
+        <p class="title" id="title-loading">Try push start and stop button !</p>
+        <progress class="progress-demo" id="progress-loading" value="0" max="100"></progress>
+        <dev class="wrap-button">
+            <button class="button" id="button-start">start</button>
+            <button class="button" id="button-stop" disabled>stop</button>
+            <button class="button" id="button-reset" disabled>reset</button>
+        </div>
     </div>
 
     <!-- jsファイルの読み込み -->

@@ -7,6 +7,7 @@ body {
 .container {
     background-color: white;
     text-align: center;
+    padding: 2rem 0 2rem 0
 }
 
 /* カウントアップ文字列の設定 */
@@ -18,4 +19,24 @@ body {
 #coutUpProgress {
     height: 2rem;
     width: 95%;
+}
+
+/* カウントアップ文字列の設定 */
+.title {
+    font-size: 2rem;
+}
+
+/* プログレスバーの設定 */
+.progress-demo {
+    height: 2rem;
+    width: 95%;
+}
+
+#progress-loading {
+    height: 2rem;
+    width: 95%;
+}
+
+.wrap-button {
+    display: block;
 }
